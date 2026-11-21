@@ -1,0 +1,11 @@
+# 编译产物
+build/
+outputs/
+
+# IDE
+.idea/
+*.iml
+.cache/
+
+# 系统
+.DS_Store
