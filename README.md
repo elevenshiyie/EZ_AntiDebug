@@ -96,7 +96,7 @@ jni/      JNI_OnLoad 启动 + 巡检循环 + 命中报告
 
 ## 免责声明
 
-EZ_AntiDebug 是一个面向学习与技术研究目的的开源学习库，主要用于理解 Android 反调试与完整性检测的基本原理和实现方式，**并不提供任何生产级的强检测能力**，也不保证对真实对抗场景的有效性。本项目仅供学习交流使用，**严禁用于任何商业用途**；使用者应自行承担使用本库所产生的一切后果，作者不对因使用本项目造成的任何直接或间接损失承担责任。
+EZ_AntiDebug 是一个面向学习与技术研究目的的公开项目，主要用于理解 Android 反调试与完整性检测的基本原理和实现方式，**并不提供任何生产级的强检测能力**，也不保证对真实对抗场景的有效性。本项目仅供学习交流使用，**严禁用于任何商业用途**；使用者应自行承担使用本库所产生的一切后果，作者不对因使用本项目造成的任何直接或间接损失承担责任。
 
 ## 特别鸣谢
 
@@ -105,6 +105,6 @@ EZ_AntiDebug 是一个面向学习与技术研究目的的开源学习库，主�
 - [jmpews/Dobby](https://github.com/jmpews/Dobby) — 测试用。用它做 inline hook，验证 `hook.inline` 和 `hook.ue_procevt` 能抓到它的跳板。
 - [MJx0/AndKittyInjector](https://github.com/MJx0/AndKittyInjector) — 测试用。用它做 ptrace 注入（含 `--memfd` 隐身模式），验证 `inject.memfd` / `inject.so_list` / `shadow.text_x` 这几条。
 
-## License
+## 许可
 
-MIT
+本项目不附带任何开源许可证，默认保留所有权利（All Rights Reserved）。源码可自由查看、学习、交流，但**未经作者明确授权，不得复制、修改、分发或用于任何用途**。
